@@ -150,7 +150,7 @@ add_subdirectory (src_python)
 if (WITH_MATLAB_MEX)
 add_subdirectory (matlab)
 endif (WITH_MATLAB_MEX)
-add_subdirectory (doc)
+#add_subdirectory (doc)
 
 # export targets
 install(EXPORT yaafe-targets DESTINATION lib/yaafe)
