@@ -25,7 +25,7 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include "argtable2.h"
+#include "argtable3.h"
 #include "yaafe-core/DataFlow.h"
 #include "yaafe-core/AudioFileProcessor.h"
 #include "yaafe-core/OutputFormat.h"

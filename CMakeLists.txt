@@ -26,7 +26,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG -ffast-math" CACHE STRING "CXX RELEASE
 set(CMAKE_C_FLAGS_RELEASE "-O3 -DNDEBUG -ffast-math" CACHE STRING "C RELEASE FLAGS" FORCE)
 add_definitions(-Wno-write-strings)
 
-find_package(Argtable2 REQUIRED)
+find_package(Argtable3 REQUIRED)
 
 if (NOT WIN32)
     find_package(DL REQUIRED)
